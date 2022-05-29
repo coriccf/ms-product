@@ -1,0 +1,39 @@
+GET http://localhost:8080/product
+Content-Type: application/json
+
+
+
+####
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+  "id_product": "1",
+  "name_product": "Atorvastatina",
+  "price": 85,
+  "description": "Sirve para reducir los niveles de trigliricéridos "
+}
+
+
+####
+DELETE http://localhost:8080/product/128
+Content-Type: application/json
+
+####
+GET http://localhost:8080/product/127
+Content-Type: application/json
+
+
+####
+PUT http://localhost:8080/product/1
+Content-Type: application/json
+
+{
+  "id_product": "1",
+  "name_product": "Paracetamol",
+  "price": 85,
+  "description": "para aliviar la fiebre y el dolor"
+}
+
+
+
